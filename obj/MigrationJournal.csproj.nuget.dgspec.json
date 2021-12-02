@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bomanazibaogoni/Public/Project/MigrationJournal/MigrationJournal.csproj": {}
+  },
+  "projects": {
+    "/Users/bomanazibaogoni/Public/Project/MigrationJournal/MigrationJournal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bomanazibaogoni/Public/Project/MigrationJournal/MigrationJournal.csproj",
+        "projectName": "MigrationJournal",
+        "projectPath": "/Users/bomanazibaogoni/Public/Project/MigrationJournal/MigrationJournal.csproj",
+        "packagesPath": "/Users/bomanazibaogoni/.nuget/packages/",
+        "outputPath": "/Users/bomanazibaogoni/Public/Project/MigrationJournal/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bomanazibaogoni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "dbup": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
